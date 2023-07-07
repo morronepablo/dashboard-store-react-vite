@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Estilo para achicar el ancho del scroll */
+.scrollbar-w-1::-webkit-scrollbar {
+    width: 4px; /* Ancho del scroll */
+}
+  
+.scrollbar-w-1::-webkit-scrollbar-thumb {
+    background-color: #4F4F4F; /* Color del scroll thumb */
+}
+
+.scrollbar-w-1::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background-color: #F1F1F1; /* Color del scroll track */
+}
